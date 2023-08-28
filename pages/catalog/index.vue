@@ -23,7 +23,6 @@
     layout: "catalog",
   });
   const sections = await $fetch('https://fakestoreapi.com/products/categories')
-  console.log(sections)
 </script>
 <style scoped lang="scss">
   .wrapper{
